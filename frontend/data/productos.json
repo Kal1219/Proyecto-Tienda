@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Playera Twitch",
+        "precio": 20.00,
+        "imagen": "../images/playera1.jpg",
+        "descripcion": "Playera con el logo de Twitch, perfecta para los fans de streaming."
+    },
+    {
+        "id": 2,
+        "nombre": "Playera YouTube",
+        "precio": 25.00,
+        "imagen": "../images/playera2.jpg",
+        "descripcion": "Playera con el logo de YouTube, ideal para los amantes de los videos."
+    },
+    {
+        "id": 3,
+        "nombre": "Playera Gamer",
+        "precio": 30.00,
+        "imagen": "../images/playera3.jpg",
+        "descripcion": "Playera con diseño gamer, para los verdaderos fanáticos de los videojuegos."
+    },
+    {
+        "id": 4,
+        "nombre": "Playera Retro",
+        "precio": 22.00,
+        "imagen": "../images/playera4.jpg",
+        "descripcion": "Playera con diseño retro, para los nostálgicos de los clásicos."
+    },
+    {
+        "id": 5,
+        "nombre": "Playera Minimalista",
+        "precio": 18.00,
+        "imagen": "../images/playera5.jpg",
+        "descripcion": "Playera con diseño minimalista, para los amantes de Dragon Ball Z."
+    }
+]

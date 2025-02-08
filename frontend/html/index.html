@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Playeras - Maxzul_</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.svg" alt="Logo de Maxzul_">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#redes-sociales">Redes Sociales</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#" id="carrito-icono">🛒</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Bienvenido a la Tienda de Playeras de Kal1219</h1>
+        <p>Playeras únicas diseñadas por un creador de contenido apasionado.</p>
+        <a href="#productos" class="btn">Ver Productos</a>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Hola, soy Kal1219, un creador de contenido en Twitch y YouTube. Aquí encontrarás playeras con diseños exclusivos inspirados en mis streams y videos.</p>
+    </section>
+
+    <section id="productos" class="productos">
+        <h2>Nuestras Playeras</h2>
+        <div class="carrusel" id="carrusel">
+            <!-- Los productos se cargarán dinámicamente desde el backend -->
+        </div>
+    </section>
+
+    <section id="videos" class="videos">
+        <h2>Videos Promocionales</h2>
+        <div class="video-grid">
+            <iframe src="https://www.youtube.com/embed/D579oym6R1E?si=Bfqnh0vUOgyA4oGM" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/3UOFe5wHZVA?si=TcytnK1Nd9-7-zf1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/BZoCG8Q73Ew?si=u2iI8Ev95cIV48w4" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/0vIql8jpjyc?si=d2Qm34MIycf9vGOz" frameborder="0" allowfullscreen></iframe>
+            <!-- Más videos aquí -->
+        </div>
+    </section>
+
+    <section id="redes-sociales" class="redes-sociales">
+        <h2>Sígueme en Redes Sociales</h2>
+        <div class="redes">
+            <a href="https://www.twitch.tv/maxzul_" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/twitch.png" alt="twitch"/></a>
+            <a href="https://www.youtube.com/@Maxzul_" target="_blank"><img width="50" height="50" src="https://img.icons8.com/ios-filled/50/youtube-play.png" alt="youtube-play"/></a>
+            <a href="https://www.instagram.com/maxzulito/" target="_blank"><img width="64" height="64" src="https://img.icons8.com/glyph-neue/64/instagram-new--v1.png" alt="instagram-new--v1"/></a>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form id="formulario-contacto">
+            <input type="text" id="nombre" placeholder="Tu nombre" required>
+            <input type="email" id="email" placeholder="Tu email" required>
+            <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Kal1219. Todos los derechos reservados.</p>
+    </footer>
+
+    <div id="carrito-popup" class="popup">
+        <div class="popup-contenido">
+            <span class="cerrar">&times;</span>
+            <h2>Carrito de Compras</h2>
+            <ul id="carrito-lista"></ul>
+            <button id="pagar">Pagar con PayPal</button>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
