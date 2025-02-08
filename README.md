@@ -1,4 +1,4 @@
-# Tienda de Playeras de Maxzul_
+# Tienda de Playeras de Kal1219
 
 Este proyecto es un sitio web para un creador de contenido (Maxzul_) que desea vender playeras personalizadas. El sitio incluye un frontend moderno y responsive, un backend con Node.js, MongoDB para la base de datos, Passport.js para la autenticación y la API de PayPal para los pagos.
 
