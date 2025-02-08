@@ -1,6 +1,6 @@
 # Tienda de Playeras de Kal1219
 
-Este proyecto es un sitio web para un creador de contenido (Maxzul_) que desea vender playeras personalizadas. El sitio incluye un frontend moderno y responsive, un backend con Node.js, MongoDB para la base de datos, Passport.js para la autenticación y la API de PayPal para los pagos.
+Este proyecto es un sitio web para un creador de contenido (Kal1219) que desea hacer una tienda de ventas, en este caso, de playeras personaliadas. El sitio incluye un frontend moderno y responsive, un backend con Node.js, MongoDB para la base de datos, Passport.js para la autenticación y la API de PayPal para los pagos.
 
 ## Características Principales
 
@@ -76,8 +76,8 @@ Este proyecto es un sitio web para un creador de contenido (Maxzul_) que desea v
 1. **Clonar el Repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/tienda-maxzul.git
-   cd tienda-maxzul
+   git clone https://github.com/Kal1219/Proyecto-Tienda.git
+   cd Proyecto Tienda
    ```
 
 2. Instalar Dependencias del Backend:
