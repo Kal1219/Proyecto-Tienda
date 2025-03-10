@@ -36,6 +36,8 @@ Este proyecto es un sitio web para un creador de contenido (Kal1219) que desea h
   - PayPal REST SDK (pagos)
 
 ## Estructura del Proyecto
+
+```
 /proyecto
 │
 ├── /backend
@@ -61,7 +63,7 @@ Este proyecto es un sitio web para un creador de contenido (Kal1219) que desea h
 │ └── carrito.html
 │
 └── README.md
-
+```
 
 ## Instalación y Ejecución
 
